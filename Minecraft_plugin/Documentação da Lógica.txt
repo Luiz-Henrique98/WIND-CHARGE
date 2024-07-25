@@ -1,0 +1,9 @@
+WindChargePlugin.java: Inicializa o plugin e carrega as configurações padrão.
+WindChargeListener.java:
+onProjectileLaunch:
+Verifica se o projétil é do tipo ARROW.
+Aplica o multiplicador de velocidade ao projétil.
+Adiciona partículas ao redor do projétil se a configuração estiver ativada.
+onProjectileHit:
+Verifica se o projétil é do tipo ARROW.
+Cria uma explosão na localização do projétil após o impacto, utilizando a configuração de força de explosão.

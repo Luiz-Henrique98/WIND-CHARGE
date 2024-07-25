@@ -1,0 +1,5 @@
+name: WindChargePlugin
+version: 1.0
+main: com.example.windcharge.WindChargePlugin
+api-version: 1.21
+description: Plugin de personalização do Wind Charge
